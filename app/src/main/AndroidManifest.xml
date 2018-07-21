@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="il.co.blaster.kotlinstarter.Splash.Splash">
+        <activity android:name="il.co.blaster.kotlinstarter.Activities.Splash.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="il.co.blaster.kotlinstarter.Main.MainActivity"/>
+        <activity android:name="il.co.blaster.kotlinstarter.Activities.Main.MainActivity"/>
     </application>
 
 </manifest>
